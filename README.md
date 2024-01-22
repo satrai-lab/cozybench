@@ -172,6 +172,10 @@ If the users need to customize the scenarios with their own building or occupant
 2. Customizing the Occupant Digital Twins is mainly by using [SmartSPEC](https://github.com/andrewgchio/SmartSPEC), by the following steps:
    1. Define people, events and space information in JSON format for SmartSPEC (check documentation for details) &rarr;
    2. Execute SmartSPEC which will generate a `data.csv` file (an example is included in `./dt_prototype/occupant/data.csv`) &rarr;
-   3. This generated trajectory file is so large and traversing it each time to retrieve useful data wastes a lot of time. Therefore, we need to clean up unnecessary data and store the data in different folders separately by using the following script`./dt_prototype/occupant/generate_participant_file.py`. Modify the file path in this script and it will generate a folder with seperated trajectory data like `./model/office/trajectories`
+   3. This generated trajectory file is so large and traversing it each time to retrieve useful data wastes a lot of time. Therefore, we need to clean up unnecessary data and store the data in different folders separately by using the following script`./dt_prototype/occupant/generate_participant_file.py`. Modify the file path in this script and it will generate a folder with seperated trajectory data like `./model/office/trajectories`.
 
 3. Now you have the necessary models and can run the evaluations like introduced above.
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
