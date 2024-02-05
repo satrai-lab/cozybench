@@ -15,12 +15,12 @@ Note that you need to add the path to EnergyPlus folder (e.g., `C:\EnergyPlusV22
 energyplus -v
 ```
 
-Python and necessary libraries can be more conveniently installed via [Anaconda](https://www.anaconda.com/). Once Anaconda is set up, open the command line and execute the following command to establish an Anaconda environment using the configuration file `cozybench.yml`. Please be patient, this process could take a few minutes.
+Python and necessary libraries can be more conveniently installed via [Anaconda](https://www.anaconda.com/). Once Anaconda is set up, open the command line and execute the following command to establish an Anaconda environment using the configuration file `cozybench.yml`. This process could take a few minutes.
 ```shell
 cd path/to/cozybench
 conda env create -f ./env/cozybench.yml -n cozybench
 ```
-this command will install Python along with the following libraries: 
+this command will install Python along with the following libraries:  
 [PyFmi](https://jmodelica.org/pyfmi/) (version >= 2.10.3)  
 [FMI Library](https://jmodelica.org/FMILibrary/) (version >= 2.4.1)  
 [Numpy](https://pypi.org/project/numpy/) (version >= 1.23.5)  
@@ -36,51 +36,13 @@ this command will install Python along with the following libraries:
 ### Functional Test
 After completing the installation steps outlined previously, you can execute our functional test with our sample scenarios to make sure Co-zyBench is working in your machine. These samples are designed to demonstrate the functionality of Co-zyBench and offer users examples to design their scenario and systems. 
 
-Here, we use the sample of a small office building with 18 occupants with different profile created based on a television series [*the office*](https://en.wikipedia.org/wiki/The_Office_(American_TV_series)). The FMU model created based on different city climate (Mumbai, Cairo, Paris, LA, Scranton) are stored in the folder `./models/office/city`. Its floor plan and HVAC system (VAV system) are as shown in the following figures.
-
-<p align="center">
-  <img width="350" src="images/building.png">
-  <br>
-  <em>Office Building Floor Plan</em>
-</p>
-
-<p align="center">
-  <img width="350" src="images/hvac.png">
-  <br>
-  <em>VAV System Layout</em>
-</p>
-
-Occupants profiles and events are created based on the following information and are stored in the folder `./models/office/trajectories` and `./models/office/occ_config.txt`: 
-
-<p align="center">
-  <img width="350" src ="images/profile.png">  
-  <br>
-  <em>Occupant Profile</em>
-</p>
-
-<p align="center">
-  <img width="400" src ="images/schedule.png">
-  <br>
-  <em>Event and Occupant Schedule</em>
-</p>
-
-
-Except for the scenarios, we also added sample thermal comfort provision systems - *Majority, Drift and Fairness* as baselines for users to compare with. 
-
-Here we will use *Majority* as the thermal comfort provision system and *the office* as the scenario for the functional test. 
-Firstly, go to the root path of Co-zyBench and activate the Anaconda environment:
 ```shell
-cd ./path/to/Co-zyBench
+cd path/to/cozybench
 conda activate cozybench
+python functional_test.py
 ```
 
-then start the evaluations for the majority strategy in our reference scenario in Paris conditions: 
-```
-python ./main.py -s maj -b ./models/office/Paris/in.fmu -o ./models/office/trajectories -p ./models/office/occ_config.txt
-```
-
-Wait for several minutes, Co-zyBench will create a folder `./result/result_XXXXX` when the first evaluation process is done. If you can find the JSON-formatted results in the folder, Cozy-Bench is functioning correctly.  
-**Note that** if you just want to do the functional test, it's not necessary to wait for the entire evaluations to complete, as this can take some time. You may interrupt the process with Ctrl+C once you see at least one result in this folder.
+This comment will execute the functional test with one of our [scenario samples](#scenarios-samples) and generate the evaluation results. Co-zyBench is deployed successfully if you can see the result file `./result/result_timestamp/majs1_75.json`. The results contain information on thermal comfort and energy consumption, check [results](#results) for more details.
 
 
 ## Customizing the Benchmark 
@@ -148,9 +110,9 @@ The evaluation may take a while, you will find the daily results on thermal comf
 ```
 Here is an example of the evaluation result accumulated from January 1st till December 29th, _cooling\_consumption_ and _heating\_consumption_ represent the annual energy usage of cooling and heating systems in joule. _itc_ is the total discomfort experienced by occupants and _equality_ shows the extra loss of each individual.
 
-## Customize scenarios
+### Customize scenarios
 
-### requirements
+#### requirements
 
 To enable a fair comparison of current and future HVAC control approaches as well as reproducibility, Co-zyBench includes a set of reference scenarios in the ./models folder. Additionally, to enable extensibility (both in terms of adding public new scenarios in the future or testing specific scenarios), Co-zyBench provides the users with an option to customize scenarios.  
 
@@ -175,6 +137,41 @@ If the users need to customize the scenarios with their own building or occupant
    3. This generated trajectory file is so large and traversing it each time to retrieve useful data wastes a lot of time. Therefore, we need to clean up unnecessary data and store the data in different folders separately by using the following script`./dt_prototype/occupant/generate_participant_file.py`. Modify the file path in this script and it will generate a folder with seperated trajectory data like `./model/office/trajectories`.
 
 3. Now you have the necessary models and can run the evaluations like introduced above.
+
+#### Scenarios Samples:
+##### The office scenario
+We provide the sample of a small office building with 18 occupants with different profile created based on a television series [*the office*](https://en.wikipedia.org/wiki/The_Office_(American_TV_series)). The FMU models created based on different city climate (Mumbai, Cairo, Paris, LA, Scranton) are stored in the folder `./models/office/`. Its floor plan and HVAC system (VAV system) are as shown in the following figures.
+
+<p align="center">
+  <img width="350" src="images/building.png">
+  <br>
+  <em>Office Building Floor Plan</em>
+</p>
+
+<p align="center">
+  <img width="350" src="images/hvac.png">
+  <br>
+  <em>VAV System Layout</em>
+</p>
+
+Occupants profiles and events are created based on the following information and are stored in the folder `./models/office/trajectories` and `./models/office/occ_config.txt`: 
+
+<p align="center">
+  <img width="350" src ="images/profile.png">  
+  <br>
+  <em>Occupant Profile</em>
+</p>
+
+<p align="center">
+  <img width="400" src ="images/schedule.png">
+  <br>
+  <em>Event and Occupant Schedule</em>
+</p>
+
+##### Baseline samples:
+We also added sample thermal comfort provision systems - *Majority, Drift and Fairness* as baselines for users to compare with.
+We will upload our paper once it gets published for more details.
+
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
