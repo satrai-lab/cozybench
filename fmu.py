@@ -36,12 +36,6 @@ class CoSimulation:
             self.fmu_model.reset()
             return False
 
-        # # TODO: Occupancy
-        # for i in range(6):
-        #     inputs["sch_occ_"+str(i+1)] = 0
-
-        # print(inputs)
-
         for key, value in inputs.items():
             self.fmu_model.set(key, float(value))
         res = self.fmu_model.do_step(current_t=self.current_second, step_size=self.second_per_step, new_step=True)

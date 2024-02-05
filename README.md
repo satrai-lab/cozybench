@@ -177,5 +177,6 @@ If the users need to customize the scenarios with their own building or occupant
 3. Now you have the necessary models and can run the evaluations like introduced above.
 
 ## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Distributed under the MIT License. See `LICENSE` for more information.

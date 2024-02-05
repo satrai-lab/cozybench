@@ -5,8 +5,6 @@ from strategies import get_next_loss
 from knn import knn_train
 import pandas as pd
 
-from sklearn.impute import SimpleImputer
-
 
 class Participant:
     """
@@ -15,7 +13,6 @@ class Participant:
     """
     num = 0
     location = {}  # -1 means not inside
-    # thermal_profile = {}  # from 0 to 2
     itc_loss = {}
     loss = {}
     occ_profile = {}
@@ -37,8 +34,6 @@ class Participant:
         self.all_params = ['ta', 'activity_20', 'age', 'gender', 'weight_level']
         self.pattern_system = int(pattern[1])
         self.pattern_mode = int(pattern.split("_")[1])
-        # if pattern_system == 1 or pattern_mode == 100:
-        #     self.knn_model = knn_train(params)
         if self.pattern_system == 2 and self.pattern_mode != 100:
             if self.pattern_mode == 75:
                 self.knn_params = self.all_params[0:4]
@@ -50,27 +45,6 @@ class Participant:
             self.knn_params = self.all_params
         self.knn_model = knn_train(self.knn_params)
         self.knn_model_all_params = knn_train(self.all_params)
-
-        # self.space_num = 0
-        # person_id = 1
-        # for room in occ.keys():
-        #     for i in range(occ[room]):
-        #         rand = random.randint(0, 99)
-        #         if rand < dis[0]:
-        #             preference = 0
-        #         elif rand < dis[0] + dis[1]:
-        #             preference = 1
-        #         else:
-        #             preference = 2
-        #
-        #         self.thermal_profile[person_id] = preference
-        #         dis[preference] += 1
-        #         self.loss[person_id] = 0
-        #         person_id += 1
-        #         self.location[person_id] = -1
-        # self.num = person_id
-
-    # def train_KNN(self, params):
 
     def config_occ_profile(self, config_file):
         f_config = open(config_file, "r")
@@ -175,34 +149,11 @@ class Participant:
                     else:
                         knn_data[p] = [self.occ_profile[index][p]]
 
-                # imputer = SimpleImputer(strategy='mean')
                 knn_data = pd.DataFrame(knn_data)  # Replace with your own data
-                # knn_data[self.knn_params] = imputer.transform(knn_data[self.knn_params])
 
                 predicted_comfort = self.knn_model.predict(knn_data)
 
                 votes[self.location[index]][index] = predicted_comfort[0].round()
-
-                # print(f"Predicted Thermal Comfort: {predicted_comfort[0]:.2f}")
-
-                # if temp[self.location[index]] < 18:
-                #     votes[self.location[index]][index] = -3
-                # elif temp[self.location[index]] > 31:
-                #     votes[self.location[index]][index] = 3
-                # else:
-                #     votes[self.location[index]][index] = voteSheet[round(temp[self.location[index]])][
-                #         self.thermal_profile[index]]
-                #
-                # # add randomness
-                # rand = random.randint(0, 99)
-                # if rand < 15:
-                #     votes[self.location[index]][index] += 1
-                # elif rand < 30:
-                #     votes[self.location[index]][index] -= 1
-                # elif rand < 40:
-                #     votes[self.location[index]][index] += 2
-                # elif rand < 50:
-                #     votes[self.location[index]][index] -= 2
 
                 if votes[self.location[index]][index] < -3:
                     votes[self.location[index]][index] = -3

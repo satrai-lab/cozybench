@@ -14,8 +14,6 @@ def get_atc(strategy: str, thermal_sensation: dict, p_loss: dict, ep_output: dic
         return drift(thermal_sensation, True)
     elif strategy == "fair":
         return fairness(thermal_sensation, p_loss)
-    else:
-        eval(strategy)(para)
 
 
 def majority(thermal_sensation: dict):
@@ -76,7 +74,6 @@ def fairness(thermal_sensation: dict, loss: dict):
             selected_atc = atc
             # selected_loss = next_loss
 
-    # TODO: 更新所有人的loss，在外部实现 - 比如 result 类或方法
     return selected_atc
 
 

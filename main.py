@@ -12,19 +12,6 @@ def main():
 
     args = parser.parse_args()
 
-
-    # algorithms = argv[0]
-    # if algorithms[0] == "[":
-    #     algorithms = algorithms[1:-1].split(",")
-    #
-    # building = ""
-    # occupant = ""
-    # flag_model = False
-    # if len(argv) > 1:
-    #     flag_model = True
-    #     building = argv[1]
-    #     if not building.isdigit():
-    #         occupant = argv[2]
     algorithms = []
     if args.system[0] == "[":
         algorithms = args.system[1:-1].split(",")
@@ -36,8 +23,6 @@ def main():
     path_trajectories = args.occupant
     path_profile = args.profile
 
-    # cities = ["Paris"]
-    # ratios = [0, 1, 2, 3, 4]
     repeat_time = 1
     scenario_system = [1, 2]
     percentage = [25, 50, 75, 100]
@@ -54,8 +39,6 @@ def main():
             for sce_sys in scenario_system:
                 for sce_model in percentage:
                     arguments = [path_fmu_model, algo.strip(), "s" + str(sce_sys)+"_"+str(sce_model), path_profile, path_trajectories, "knn/ashrae_comfort_data.csv", timestamp]
-                    # if flag_model:
-                    #     arguments.append([building, occupant])
 
                     path = "run.py"
                     print("running ", arguments)

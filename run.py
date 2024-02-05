@@ -12,8 +12,8 @@ from result import Result
 
 def main(argv):
     """
-
-    :param argv: include [path_fmu, strategy, scenario_pattern, path_profile, path_trajectory, history_data]
+    One round simulation.
+    :param argv: include [path_fmu, strategy, scenario_pattern, path_profile, path_trajectory, history_data, timestamp]
         scenario pattern is like e.g. S1_25 which means 25% system 1
         Sys1 is people voting, 25% means 25% people would love to vote
         Sys2 is device sensing, 25% means 25% parameters (age, gender, weight, activity) are used
@@ -68,7 +68,7 @@ def main(argv):
             for i in range(1, space + 1):
                 indoor_temp[i] = co_sim.output['temp_' + str(i)][0]
 
-            print("indoor temperature:\t" + str(indoor_temp[1])[:4])
+            # print("indoor temperature:\t" + str(indoor_temp[1])[:4])
 
             votes_by_room, real_votes_by_room = participant.vote(sim_time, indoor_temp)
             for values in real_votes_by_room.values():
@@ -76,8 +76,8 @@ def main(argv):
 
             # occupancy:
             for i in range(1, space + 1):
-                # input_param['sch_occ_' + str(i)] = len(real_votes_by_room[i]) / 18
-                input_param['sch_occ_' + str(i)] = 0
+                input_param['sch_occ_' + str(i)] = len(real_votes_by_room[i]) / 18
+                # input_param['sch_occ_' + str(i)] = 0
 
             # aggregate votes of each space and generate new set point
             atc = {}
@@ -171,7 +171,6 @@ def main(argv):
                 result_dict[str(sim_time.strftime("%Y-%m-%d"))]["itc"] = result_itc
                 result_dict[str(sim_time.strftime("%Y-%m-%d"))]["total_itc"] = result.itc
 
-
                 result_loss = {}
                 for pid, loss in participant.loss.items():
                     result_loss[pid] = loss
@@ -179,21 +178,6 @@ def main(argv):
                 result_dict[str(sim_time.strftime("%Y-%m-%d"))]["equality"] = result_loss
         is_finish = co_sim.simulate(input_param, output_param)
 
-    # print("finished ........................................................")
-    # program_end_time = datetime.now()
-    # print((program_end_time-program_start_time).seconds)
-    # input()
-
-    # result_dict = {}
-    # result_dict["cooling_consumption"] = result.ec_clg
-    # result_dict["heating_consumption"] = result.ec_htg
-    # result_dict["itc"] = result.itc
-
-    # result_loss = {}
-    # for pid, loss in participant.loss.items():
-    #     result_loss[pid] = loss
-    #
-    # result_dict["equality"] = result_loss
 
     result_path = "./result/" + "result_" + timestamp + "/"
     if not os.path.exists(result_path):
@@ -202,21 +186,6 @@ def main(argv):
     with open(result_path + algo + str(argv[2]) + ".json", "w") as json_file:
         json.dump(result_dict, json_file, indent=4)
 
-
-    # f = open("./result/" + city + "/" + algo + str(argv[2]) + ".txt", 'w')
-    # f.write("consumption cooling \n")
-    # f.write(str(result.ec_clg) + '\n')
-    # f.write("consumption heating \n")
-    # f.write(str(result.ec_htg) + '\n')
-    # f.write("itc\n")
-    # f.write(str(result.itc) + "\n")
-    # f.write("equality \n")
-    # for loss in participant.loss.values():
-    #     f.write(str(loss) + "\n")
-
-    # for key, value in result.items():
-    #     print(key + ":  " + str(value.ec))
-    # f.close()
     print(algo + " finished ")
 
     print(total_num)
@@ -224,5 +193,3 @@ def main(argv):
 
 if __name__ == "__main__":
     main(sys.argv[1:])
-    # main(['./models/office/Paris/in.fmu', "const", "s1_25", "./models/office/occ_config.txt", "./models/office/trajectories", "knn/ashrae_comfort_data.csv"])
-    # main(['./models/office/Paris/in.fmu', 'maj', 's1_75', './models/office/occ_config.txt', './models/office/trajectories', 'knn/ashae_comfort_data.csv'])
