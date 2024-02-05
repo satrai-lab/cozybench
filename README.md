@@ -79,7 +79,9 @@ After adding their own systems into the project, the users can now evaluate thei
 python ./main.py -s system -b building -o occupant -p profile
 ```
 
-Here, `system` specifies the chosen thermal comfort provision system(s), defined as a list in case there are more systems to be evaluated. The optional parameter `-b building` is the path to the building FMU model, `-o occupant` and `-p profile` are for occupant trajectory and defined profiles. The reference scenarios of Co-zyBench are stored in the folder `./models` of our repository. For example, to conduct the evaluations in a predefined office building included in the benchmark using the Parisian climate zone, users can run the following command:
+Here, `system` specifies the chosen thermal comfort provision system(s), defined as a list in case there are more systems to be evaluated. The optional parameter `-b building` is the path to the building FMU model, `-o occupant` and `-p profile` are for occupant trajectory and defined profiles. The reference scenarios of Co-zyBench are stored in the folder `./models` of our repository. 
+
+For example, to conduct the evaluations in a predefined office building included in the benchmark using the Parisian climate zone, users can run the following command:
 
 ```
 python ./main.py -s maj -b ./models/office/Paris/in.fmu -o ./models/office/trajectories -p ./models/office/occ_config.txt
@@ -134,7 +136,7 @@ If the users need to customize the scenarios with their own building or occupant
 2. Customizing the Occupant Digital Twins is mainly by using [SmartSPEC](https://github.com/andrewgchio/SmartSPEC), by the following steps:
    1. Define people, events and space information in JSON format for SmartSPEC (check documentation for details) &rarr;
    2. Execute SmartSPEC which will generate a `data.csv` file (an example is included in `./dt_prototype/occupant/data.csv`) &rarr;
-   3. This generated trajectory file is so large and traversing it each time to retrieve useful data wastes a lot of time. Therefore, we need to clean up unnecessary data and store the data in different folders separately by using the following script`./dt_prototype/occupant/generate_participant_file.py`. Modify the file path in this script and it will generate a folder with seperated trajectory data like `./model/office/trajectories`.
+   3. This generated trajectory file is so large and traversing it each time to retrieve useful data wastes a lot of time. Therefore, we need to clean up unnecessary data and store the data in different folders separately by using the following script `./dt_prototype/occupant/generate_participant_file.py`. Modify the file path in this script, and then it will generate a folder with seperated trajectory data like `./model/office/trajectories`.
 
 3. Now you have the necessary models and can run the evaluations like introduced above.
 
