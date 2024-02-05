@@ -81,7 +81,7 @@ python ./main.py -s system -b building -o occupant -p profile
 
 Here, `system` specifies the chosen thermal comfort provision system(s), defined as a list in case there are more systems to be evaluated. The optional parameter `-b building` is the path to the building FMU model, `-o occupant` and `-p profile` are for occupant trajectory and defined profiles. The reference scenarios of Co-zyBench are stored in the folder `./models` of our repository. 
 
-For example, to conduct the evaluations in a predefined office building included in the benchmark using the Parisian climate zone, users can run the following command:
+For example, to conduct the evaluations of the Majority Rule ([for more details](#baseline-samples)) in a predefined office building included in the benchmark using the Parisian climate zone, users can run the following command:
 
 ```
 python ./main.py -s maj -b ./models/office/Paris/in.fmu -o ./models/office/trajectories -p ./models/office/occ_config.txt
@@ -171,8 +171,13 @@ Occupants profiles and events are created based on the following information and
 </p>
 
 ##### Baseline samples:
-We also added sample thermal comfort provision systems - *Majority, Drift and Fairness* as baselines for users to compare with.
-We will upload our paper once it gets published for more details.
+We also added sample thermal comfort provision systems - *Majority, Drift and Fairness* as baselines for users to compare with. To run them, replace `system` with `maj`, `drift` or `fair` in the command line.
+
+- **Majority Rule (maj).** We chose to evaluate the majority rule to reach consensus, usually considered a robust rule since it always satisfies the majority's requirement and maximizes the thermal comfort level of the overall workforce. For instance, if the thermal sensations of a group are represented as `cold, cold, hot`, this rule would select `cold` because it reflects the majority's experience.
+
+- **Drift Approach (drift).** We did some changes of the strategy proposed by the paper [Model-free HVAC control using occupant feedback](https://ieeexplore.ieee.org/document/6758502). If the summary of the thermal sensations of a group is higher than 0 (or lower than 0) the output group thermal sensation is 2 (or -2). If the sum is zero, which means that everybody is comfortable, instead of maintaining the current temperature, they apply a *drift* towards the temperature outside of the building to save energy (e.g., representing that the group is slightly warm or cold depending on whether is winter or summer, respectively).
+
+- **Fairness Approach (fair).** Paper [Exploring fairness in participatory thermal comfort control in smart buildings](https://dl.acm.org/doi/10.1145/3137133.3137156) propose an approach to maintain *fairness* among the occupants of a building: people accumulate loss when their discomfort is greater than the ideal fair discomfort. Otherwise, they reduce their accumulated loss. For example, if the aggregated thermal sensation is 0, people who feel warm (2 on the scale) get more loss than those who feel slightly warm (1 on the scale). To maintain fairness, the approach takes into account the accumulated loss of each individual in each round and chooses a group thermal sensation value that minimizes the accumulated loss of the individual with the highest loss so far.
 
 
 ## License
