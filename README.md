@@ -51,7 +51,7 @@ Co-zyBench is designed for evaluating thermal comfort provision systems that tak
 
 ### 1. Thermal Comfort Provision System
 
-For thermal comfort provision systems, some sample systems are available in the `strategy.py` file. In this file, there is a function `get_atc()` to call the strategies automatically with occupants' thermal sensations (from -3 to 3 indicating feeling very cold to feeling very hot) and people's loss for the experienced inequality of the occupants (check our paper for more information). 
+For thermal comfort provision systems, some sample systems are available in the `strategies.py` file. In this file, there is a function `get_atc()` to call the strategies automatically with occupants' thermal sensations (from -3 to 3 indicating feeling very cold to feeling very hot) and people's loss for the experienced inequality of the occupants (check our paper for more information). 
 ```
 def get_atc(strategy: str, thermal_sensation: dict, p_loss: dict, ep_output: dict)
 ```
