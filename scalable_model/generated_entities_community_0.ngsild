@@ -1,0 +1,906 @@
+[
+    0,
+    {
+        "id": "urn:ngsi-ld:Window:community0:windown_0",
+        "type": "Window",
+        "relativePosition": {
+            "type": "Property",
+            "value": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        0.0,
+                        1869.4495171796802
+                    ],
+                    [
+                        0.0,
+                        35.01139348075269
+                    ]
+                ]
+            }
+        },
+        "@context": [
+            "https://gitlab.isl.ics.forth.gr/api/v4/projects/82/repository/files/ngsild-models%2FBuilding%2Fcontext.json/raw",
+            "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:Room:community0roomn_0",
+        "type": "Room",
+        "name": {
+            "type": "Property",
+            "value": "0roomn_0"
+        },
+        "relativePosition": {
+            "type": "Property",
+            "value": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            1306.4855593448585,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            2286.641388947265
+                        ],
+                        [
+                            1306.4855593448585,
+                            2286.641388947265
+                        ],
+                        [
+                            1306.4855593448585,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        "numberOfDoors": {
+            "type": "Property",
+            "value": "0"
+        },
+        "numberOfWindows": {
+            "type": "Property",
+            "value": "1"
+        },
+        "doorsInRoom": {
+            "type": "Relationship",
+            "value": "[]"
+        },
+        "windowsInRoom": {
+            "type": "Relationship",
+            "value": "['urn:ngsi-ld:Window:community0:windown_0']"
+        },
+        "onfloor": {
+            "type": "Relationship",
+            "value": "urn:ngsi-ld:floor:community0floorn_0"
+        },
+        "sensors": {
+            "type": "Relationship",
+            "value": "[]"
+        },
+        "@context": [
+            "https://gitlab.isl.ics.forth.gr/api/v4/projects/82/repository/files/ngsild-models%2FBuilding%2Fcontext.json/raw",
+            "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:Window:community0:windown_1",
+        "type": "Window",
+        "relativePosition": {
+            "type": "Property",
+            "value": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2612.971118689717,
+                        621.9800193392045
+                    ],
+                    [
+                        2612.971118689717,
+                        1753.8522973880163
+                    ]
+                ]
+            }
+        },
+        "@context": [
+            "https://gitlab.isl.ics.forth.gr/api/v4/projects/82/repository/files/ngsild-models%2FBuilding%2Fcontext.json/raw",
+            "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:Room:community0roomn_1",
+        "type": "Room",
+        "name": {
+            "type": "Property",
+            "value": "0roomn_1"
+        },
+        "relativePosition": {
+            "type": "Property",
+            "value": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            2612.971118689717,
+                            0.0
+                        ],
+                        [
+                            1306.4855593448585,
+                            0.0
+                        ],
+                        [
+                            1306.4855593448585,
+                            2286.641388947265
+                        ],
+                        [
+                            2612.971118689717,
+                            2286.641388947265
+                        ],
+                        [
+                            2612.971118689717,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        "numberOfDoors": {
+            "type": "Property",
+            "value": "0"
+        },
+        "numberOfWindows": {
+            "type": "Property",
+            "value": "1"
+        },
+        "doorsInRoom": {
+            "type": "Relationship",
+            "value": "[]"
+        },
+        "windowsInRoom": {
+            "type": "Relationship",
+            "value": "['urn:ngsi-ld:Window:community0:windown_1']"
+        },
+        "onfloor": {
+            "type": "Relationship",
+            "value": "urn:ngsi-ld:floor:community0floorn_0"
+        },
+        "sensors": {
+            "type": "Relationship",
+            "value": "[]"
+        },
+        "@context": [
+            "https://gitlab.isl.ics.forth.gr/api/v4/projects/82/repository/files/ngsild-models%2FBuilding%2Fcontext.json/raw",
+            "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:floor:community0floorn_0",
+        "type": "Floor",
+        "relativePosition": {
+            "type": "Property",
+            "value": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            2612.971118689717,
+                            0.0
+                        ],
+                        [
+                            2612.971118689717,
+                            2286.641388947265
+                        ],
+                        [
+                            0.0,
+                            2286.641388947265
+                        ],
+                        [
+                            0.0,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        "name": {
+            "type": "Property",
+            "value": "Room Name: vCwG-06225417"
+        },
+        "numberOfRooms": {
+            "type": "Property",
+            "value": "2"
+        },
+        "roomsOnFloor": {
+            "type": "Relationship",
+            "value": "['urn:ngsi-ld:Room:community0roomn_0', 'urn:ngsi-ld:Room:community0roomn_1']"
+        },
+        "withinBuilding": {
+            "type": "Relationship",
+            "value": "urn:ngsi-ld:building:community0buildingn_0"
+        },
+        "location": {
+            "type": "Property",
+            "value": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            25.12852191925049,
+                            35.31064272673245
+                        ],
+                        [
+                            25.107879638671875,
+                            35.31064272673245
+                        ],
+                        [
+                            25.107879638671875,
+                            35.33655353682269
+                        ],
+                        [
+                            25.12852191925049,
+                            35.33655353682269
+                        ],
+                        [
+                            25.12852191925049,
+                            35.31064272673245
+                        ]
+                    ]
+                ]
+            }
+        },
+        "@context": "[https://gitlab.isl.ics.forth.gr/api/v4/projects/82/repository/files/ngsild-models%2FBuilding%2Fcontext.json/raw,https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld]"
+    },
+    {
+        "id": "urn:ngsi-ld:Window:community0:windown_2",
+        "type": "Window",
+        "relativePosition": {
+            "type": "Property",
+            "value": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2102.168906238443,
+                        2286.641388947265
+                    ],
+                    [
+                        2402.094855925221,
+                        2286.641388947265
+                    ]
+                ]
+            }
+        },
+        "@context": [
+            "https://gitlab.isl.ics.forth.gr/api/v4/projects/82/repository/files/ngsild-models%2FBuilding%2Fcontext.json/raw",
+            "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:Room:community0roomn_2",
+        "type": "Room",
+        "name": {
+            "type": "Property",
+            "value": "0roomn_2"
+        },
+        "relativePosition": {
+            "type": "Property",
+            "value": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            2612.971118689717,
+                            0.0
+                        ],
+                        [
+                            1306.4855593448585,
+                            0.0
+                        ],
+                        [
+                            1306.4855593448585,
+                            2286.641388947265
+                        ],
+                        [
+                            2612.971118689717,
+                            2286.641388947265
+                        ],
+                        [
+                            2612.971118689717,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        "numberOfDoors": {
+            "type": "Property",
+            "value": "0"
+        },
+        "numberOfWindows": {
+            "type": "Property",
+            "value": "1"
+        },
+        "doorsInRoom": {
+            "type": "Relationship",
+            "value": "[]"
+        },
+        "windowsInRoom": {
+            "type": "Relationship",
+            "value": "['urn:ngsi-ld:Window:community0:windown_2']"
+        },
+        "onfloor": {
+            "type": "Relationship",
+            "value": "urn:ngsi-ld:floor:community0floorn_1"
+        },
+        "sensors": {
+            "type": "Relationship",
+            "value": "[]"
+        },
+        "@context": [
+            "https://gitlab.isl.ics.forth.gr/api/v4/projects/82/repository/files/ngsild-models%2FBuilding%2Fcontext.json/raw",
+            "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:Window:community0:windown_3",
+        "type": "Window",
+        "relativePosition": {
+            "type": "Property",
+            "value": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        0.0,
+                        1021.7230044069544
+                    ],
+                    [
+                        0.0,
+                        2125.5972833989044
+                    ]
+                ]
+            }
+        },
+        "@context": [
+            "https://gitlab.isl.ics.forth.gr/api/v4/projects/82/repository/files/ngsild-models%2FBuilding%2Fcontext.json/raw",
+            "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:Room:community0roomn_3",
+        "type": "Room",
+        "name": {
+            "type": "Property",
+            "value": "0roomn_3"
+        },
+        "relativePosition": {
+            "type": "Property",
+            "value": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            1306.4855593448585,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            2286.641388947265
+                        ],
+                        [
+                            1306.4855593448585,
+                            2286.641388947265
+                        ],
+                        [
+                            1306.4855593448585,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        "numberOfDoors": {
+            "type": "Property",
+            "value": "0"
+        },
+        "numberOfWindows": {
+            "type": "Property",
+            "value": "1"
+        },
+        "doorsInRoom": {
+            "type": "Relationship",
+            "value": "[]"
+        },
+        "windowsInRoom": {
+            "type": "Relationship",
+            "value": "['urn:ngsi-ld:Window:community0:windown_3']"
+        },
+        "onfloor": {
+            "type": "Relationship",
+            "value": "urn:ngsi-ld:floor:community0floorn_1"
+        },
+        "sensors": {
+            "type": "Relationship",
+            "value": "[]"
+        },
+        "@context": [
+            "https://gitlab.isl.ics.forth.gr/api/v4/projects/82/repository/files/ngsild-models%2FBuilding%2Fcontext.json/raw",
+            "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:floor:community0floorn_1",
+        "type": "Floor",
+        "relativePosition": {
+            "type": "Property",
+            "value": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            2612.971118689717,
+                            0.0
+                        ],
+                        [
+                            2612.971118689717,
+                            2286.641388947265
+                        ],
+                        [
+                            0.0,
+                            2286.641388947265
+                        ],
+                        [
+                            0.0,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        "name": {
+            "type": "Property",
+            "value": "Room Name: aqHp-17422312"
+        },
+        "numberOfRooms": {
+            "type": "Property",
+            "value": "2"
+        },
+        "roomsOnFloor": {
+            "type": "Relationship",
+            "value": "['urn:ngsi-ld:Room:community0roomn_2', 'urn:ngsi-ld:Room:community0roomn_3']"
+        },
+        "withinBuilding": {
+            "type": "Relationship",
+            "value": "urn:ngsi-ld:building:community0buildingn_0"
+        },
+        "location": {
+            "type": "Property",
+            "value": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            25.12852191925049,
+                            35.31064272673245
+                        ],
+                        [
+                            25.107879638671875,
+                            35.31064272673245
+                        ],
+                        [
+                            25.107879638671875,
+                            35.33655353682269
+                        ],
+                        [
+                            25.12852191925049,
+                            35.33655353682269
+                        ],
+                        [
+                            25.12852191925049,
+                            35.31064272673245
+                        ]
+                    ]
+                ]
+            }
+        },
+        "@context": "[https://gitlab.isl.ics.forth.gr/api/v4/projects/82/repository/files/ngsild-models%2FBuilding%2Fcontext.json/raw,https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld]"
+    },
+    {
+        "id": "urn:ngsi-ld:Window:community0:windown_4",
+        "type": "Window",
+        "relativePosition": {
+            "type": "Property",
+            "value": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2236.8619882403814,
+                        2286.641388947265
+                    ],
+                    [
+                        1953.7981411765352,
+                        2286.641388947265
+                    ]
+                ]
+            }
+        },
+        "@context": [
+            "https://gitlab.isl.ics.forth.gr/api/v4/projects/82/repository/files/ngsild-models%2FBuilding%2Fcontext.json/raw",
+            "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:Room:community0roomn_4",
+        "type": "Room",
+        "name": {
+            "type": "Property",
+            "value": "0roomn_4"
+        },
+        "relativePosition": {
+            "type": "Property",
+            "value": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            2612.971118689717,
+                            0.0
+                        ],
+                        [
+                            1306.4855593448585,
+                            0.0
+                        ],
+                        [
+                            1306.4855593448585,
+                            2286.641388947265
+                        ],
+                        [
+                            2612.971118689717,
+                            2286.641388947265
+                        ],
+                        [
+                            2612.971118689717,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        "numberOfDoors": {
+            "type": "Property",
+            "value": "0"
+        },
+        "numberOfWindows": {
+            "type": "Property",
+            "value": "1"
+        },
+        "doorsInRoom": {
+            "type": "Relationship",
+            "value": "[]"
+        },
+        "windowsInRoom": {
+            "type": "Relationship",
+            "value": "['urn:ngsi-ld:Window:community0:windown_4']"
+        },
+        "onfloor": {
+            "type": "Relationship",
+            "value": "urn:ngsi-ld:floor:community0floorn_2"
+        },
+        "sensors": {
+            "type": "Relationship",
+            "value": "[]"
+        },
+        "@context": [
+            "https://gitlab.isl.ics.forth.gr/api/v4/projects/82/repository/files/ngsild-models%2FBuilding%2Fcontext.json/raw",
+            "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:Window:community0:windown_5",
+        "type": "Window",
+        "relativePosition": {
+            "type": "Property",
+            "value": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        1306.4855593448585,
+                        2245.9552388102
+                    ],
+                    [
+                        1306.4855593448585,
+                        805.0997237737047
+                    ]
+                ]
+            }
+        },
+        "@context": [
+            "https://gitlab.isl.ics.forth.gr/api/v4/projects/82/repository/files/ngsild-models%2FBuilding%2Fcontext.json/raw",
+            "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:Room:community0roomn_5",
+        "type": "Room",
+        "name": {
+            "type": "Property",
+            "value": "0roomn_5"
+        },
+        "relativePosition": {
+            "type": "Property",
+            "value": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            1306.4855593448585,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            2286.641388947265
+                        ],
+                        [
+                            1306.4855593448585,
+                            2286.641388947265
+                        ],
+                        [
+                            1306.4855593448585,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        "numberOfDoors": {
+            "type": "Property",
+            "value": "0"
+        },
+        "numberOfWindows": {
+            "type": "Property",
+            "value": "1"
+        },
+        "doorsInRoom": {
+            "type": "Relationship",
+            "value": "[]"
+        },
+        "windowsInRoom": {
+            "type": "Relationship",
+            "value": "['urn:ngsi-ld:Window:community0:windown_5']"
+        },
+        "onfloor": {
+            "type": "Relationship",
+            "value": "urn:ngsi-ld:floor:community0floorn_2"
+        },
+        "sensors": {
+            "type": "Relationship",
+            "value": "[]"
+        },
+        "@context": [
+            "https://gitlab.isl.ics.forth.gr/api/v4/projects/82/repository/files/ngsild-models%2FBuilding%2Fcontext.json/raw",
+            "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:floor:community0floorn_2",
+        "type": "Floor",
+        "relativePosition": {
+            "type": "Property",
+            "value": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            2612.971118689717,
+                            0.0
+                        ],
+                        [
+                            2612.971118689717,
+                            2286.641388947265
+                        ],
+                        [
+                            0.0,
+                            2286.641388947265
+                        ],
+                        [
+                            0.0,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        "name": {
+            "type": "Property",
+            "value": "Room Name: UnGs-45865147"
+        },
+        "numberOfRooms": {
+            "type": "Property",
+            "value": "2"
+        },
+        "roomsOnFloor": {
+            "type": "Relationship",
+            "value": "['urn:ngsi-ld:Room:community0roomn_4', 'urn:ngsi-ld:Room:community0roomn_5']"
+        },
+        "withinBuilding": {
+            "type": "Relationship",
+            "value": "urn:ngsi-ld:building:community0buildingn_0"
+        },
+        "location": {
+            "type": "Property",
+            "value": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            25.12852191925049,
+                            35.31064272673245
+                        ],
+                        [
+                            25.107879638671875,
+                            35.31064272673245
+                        ],
+                        [
+                            25.107879638671875,
+                            35.33655353682269
+                        ],
+                        [
+                            25.12852191925049,
+                            35.33655353682269
+                        ],
+                        [
+                            25.12852191925049,
+                            35.31064272673245
+                        ]
+                    ]
+                ]
+            }
+        },
+        "@context": "[https://gitlab.isl.ics.forth.gr/api/v4/projects/82/repository/files/ngsild-models%2FBuilding%2Fcontext.json/raw,https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld]"
+    },
+    {
+        "id": "urn:ngsi-ld:building:community0buildingn_0",
+        "type": "Building",
+        "address": {
+            "type": "Property",
+            "value": "0256 Jennifer Overpass\nSouth Kathy, MP 10316"
+        },
+        "category": {
+            "type": "Property",
+            "value": "bunker"
+        },
+        "InCommunity": {
+            "type": "Relationship",
+            "value": "urn:ngsi-ld:community:communityn_0"
+        },
+        "dataProvider": {
+            "type": "Property",
+            "value": "grow cross-platform content"
+        },
+        "description": {
+            "type": "Property",
+            "value": "Big police."
+        },
+        "floorsAboveGround": {
+            "type": "Property",
+            "value": 3
+        },
+        "floorsBelowGround": {
+            "type": "Property",
+            "value": "0"
+        },
+        "mapUrl": {
+            "type": "Property",
+            "value": "http://www.west.biz/"
+        },
+        "source": {
+            "type": "Property",
+            "value": "http://solis.com/"
+        },
+        "location": {
+            "type": "Property",
+            "value": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            25.12852191925049,
+                            35.31064272673245
+                        ],
+                        [
+                            25.107879638671875,
+                            35.31064272673245
+                        ],
+                        [
+                            25.107879638671875,
+                            35.33655353682269
+                        ],
+                        [
+                            25.12852191925049,
+                            35.33655353682269
+                        ],
+                        [
+                            25.12852191925049,
+                            35.31064272673245
+                        ]
+                    ]
+                ]
+            }
+        },
+        "@context": [
+            "https://gitlab.isl.ics.forth.gr/api/v4/projects/82/repository/files/ngsild-models%2FBuilding%2Fcontext.json/raw",
+            "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:community:communityn_0",
+        "type": "Community",
+        "HasBuildings": {
+            "type": "Relationship",
+            "value": "['urn:ngsi-ld:building:community0buildingn_0']"
+        },
+        "name": {
+            "type": "Property",
+            "value": "morph vertical systems"
+        },
+        "location": {
+            "type": "Property",
+            "value": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            25.1491641998291,
+                            35.31064272673245
+                        ],
+                        [
+                            25.107879638671875,
+                            35.31064272673245
+                        ],
+                        [
+                            25.107879638671875,
+                            35.33655353682269
+                        ],
+                        [
+                            25.1491641998291,
+                            35.33655353682269
+                        ],
+                        [
+                            25.1491641998291,
+                            35.31064272673245
+                        ]
+                    ]
+                ]
+            }
+        },
+        "@context": [
+            "https://gitlab.isl.ics.forth.gr/api/v4/projects/82/repository/files/ngsild-models%2FBuilding%2Fcontext.json/raw",
+            "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        ]
+    }
+]

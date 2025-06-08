@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<svg width="250mm" height="200mm" viewBox="0 0 2500 1500"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:ev="http://www.w3.org/2001/xml-events">
+<g font-family="Verdana" font-size="8">
+  <text x="1" y="1">ERROR - COULD NOT COMPLETE DRAWING! Examine ERR file for possible explanation. Last error message is:   "Error: No node connection found after the following object: TZ6_BREAKROOM"</text>
+  <line x1="200" y1="20" x2="200" y2="20" style="stroke:silver;"/>
+  <rect x="200" y="20" width="1" height="1" style="fill:wheat; stroke: black;"/>16
+  <text x="202" y="14">AIR LOOP HVAC ZONE SPLITTER 1</text>
+  <rect x="200" y="20" width="1" height="1" style="fill:wheat; stroke: black;"/>17
+  <text x="202" y="14">AIR LOOP HVAC ZONE SPLITTER 2</text>
+  <rect x="200" y="20" width="1" height="1" style="fill:wheat; stroke: black;"/>28
+  <text x="202" y="14">VAV NO RHT 5</text>
+  <rect x="200" y="20" width="1" height="1" style="fill:wheat; stroke: black;"/>29
+  <text x="202" y="14">VAV NO RHT 11</text>
+  <rect x="200" y="20" width="1" height="1" style="fill:wheat; stroke: black;"/>31
+  <text x="202" y="14">AIR LOOP HVAC ZONE MIXER 2</text>
+  <rect x="200" y="20" width="1" height="1" style="fill:lawngreen; stroke: black;"/>32
+  <text  x="202" y="9">AIR LOOP HVAC OUTDOOR AIR SYSTEM 1
+  <tspan x="202" y="17">OUTDOOR AIR MIXER</tspan></text>
+  <rect x="200" y="20" width="1" height="1" style="fill:lawngreen; stroke: black;"/>33
+  <text  x="202" y="9">AIR LOOP HVAC OUTDOOR AIR SYSTEM 2
+  <tspan x="202" y="17">OUTDOOR AIR MIXER</tspan></text>
+  <rect x="200" y="20" width="1" height="1" style="fill:silver; stroke: black;"/>34
+  <text x="202" y="14">FAN VARIABLE VOLUME 1</text>
+  <rect x="200" y="20" width="1" height="1" style="fill:silver; stroke: black;"/>35
+  <text x="202" y="14">FAN VARIABLE VOLUME 2</text>
+  <rect x="200" y="20" width="1" height="1" style="fill:salmon; stroke: black;"/>38
+  <text x="202" y="14">1 SPD DX HTG COIL</text>
+  <rect x="200" y="20" width="1" height="1" style="fill:skyblue; stroke: black;"/>39
+  <text x="202" y="14">COIL COOLING DX TWO SPEED 1</text>
+  <rect x="200" y="20" width="1" height="1" style="fill:chartreuse; stroke: black;"/>61
+  <text x="202" y="14">TZ6_BREAKROOM</text>
+  <rect x="200" y="20" width="1" height="1" style="fill:chartreuse; stroke: black;"/>62
+  <text x="202" y="14">TZ6_BREAKROOM</text>
+  <line x1="201" y1="20" x2="200" y2="20" style="stroke:black;"/>
+  <line x1="201" y1="20" x2="200" y2="20" style="stroke:black;"/>
+  <line x1="201" y1="20" x2="200" y2="20" style="stroke:black;"/>
+  <line x1="201" y1="20" x2="200" y2="20" style="stroke:black;"/>
+  <line x1="201" y1="20" x2="200" y2="20" style="stroke:black;"/>
+  <line x1="201" y1="20" x2="200" y2="20" style="stroke:black;"/>
+  <line x1="201" y1="20" x2="200" y2="20" style="stroke:black;"/>
+  <line x1="201" y1="20" x2="200" y2="20" style="stroke:black;"/>
+  <line x1="201" y1="20" x2="200" y2="20" style="stroke:black;"/>
+  <line x1="201" y1="20" x2="200" y2="20" style="stroke:black;"/>
+  <line x1="201" y1="20" x2="200" y2="20" style="stroke:black;"/>
+  <line x1="201" y1="20" x2="200" y2="20" style="stroke:black;"/>
+  <text x="200" y="61">Unused Non-Parent Objects:</text>
+  <text x="220" y="81">TZ1_OFFICEL</text>
+  <text x="220" y="101">TZ2_OFFICES</text>
+  <text x="220" y="121">TZ3_CONFERENCE</text>
+  <text x="220" y="141">TZ4_KITCHEN</text>
+  <text x="220" y="161">TZ5_OFFICEM</text>
+  <text x="220" y="181">OutdoorAir:NodeList</text>
+  <text x="220" y="201">OutdoorAir:NodeList</text>
+  <text x="220" y="221">OutdoorAir:Node</text>
+  <text x="220" y="241">SCHEDULED DECK TEMP</text>
+  <text x="220" y="261">SCHEDULED DECK TEMP 1</text>
+  <text x="220" y="281">NODE 17 OS DEFAULT SPM</text>
+  <text x="220" y="301">NODE 18 OS DEFAULT SPM</text>
+  <text x="220" y="321">NODE 43 OS DEFAULT SPM</text>
+  <text x="220" y="341">NODE 44 OS DEFAULT SPM</text>
+  <text x="220" y="361">VAV NO RHT</text>
+  <text x="220" y="381">VAV NO RHT 6</text>
+  <text x="220" y="401">VAV NO RHT 1</text>
+  <text x="220" y="421">VAV NO RHT 7</text>
+  <text x="220" y="441">VAV NO RHT 2</text>
+  <text x="220" y="461">VAV NO RHT 8</text>
+  <text x="220" y="481">VAV NO RHT 3</text>
+  <text x="220" y="501">VAV NO RHT 9</text>
+  <text x="220" y="521">VAV NO RHT 4</text>
+  <text x="220" y="541">VAV NO RHT 10</text>
+  <text x="220" y="561">AIR LOOP HVAC ZONE MIXER 1</text>
+  <text x="220" y="581">CONTROLLER OUTDOOR AIR 1</text>
+  <text x="220" y="601">CONTROLLER OUTDOOR AIR 2</text>
+  <text x="220" y="621">TZ1_OFFICEL</text>
+  <text x="220" y="641">TZ1_OFFICEL</text>
+  <text x="220" y="661">TZ1_OFFICEL</text>
+  <text x="220" y="681">TZ2_OFFICES</text>
+  <text x="220" y="701">TZ2_OFFICES</text>
+  <text x="220" y="721">TZ2_OFFICES</text>
+  <text x="220" y="741">TZ2_OFFICES</text>
+  <text x="220" y="761">TZ3_CONFERENCE</text>
+  <text x="220" y="781">TZ3_CONFERENCE</text>
+  <text x="220" y="801">TZ3_CONFERENCE</text>
+  <text x="220" y="821">TZ3_CONFERENCE</text>
+  <text x="220" y="841">TZ4_KITCHEN</text>
+  <text x="220" y="861">TZ4_KITCHEN</text>
+  <text x="220" y="881">TZ4_KITCHEN</text>
+  <text x="220" y="901">TZ4_KITCHEN</text>
+  <text x="220" y="921">TZ5_OFFICEM</text>
+  <text x="220" y="941">TZ5_OFFICEM</text>
+  <text x="220" y="961">TZ5_OFFICEM</text>
+  <text x="220" y="981">TZ5_OFFICEM</text>
+  <text x="200" y="1021">
+The following are not supported: objects related to controls or ZoneHVAC:IdealLoadsAirSystem</text>
+</g>
+</svg>

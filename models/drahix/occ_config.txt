@@ -1,0 +1,19 @@
+space,name,gender,job,age,ht,weight_level
+Office Small,Michael,1,Boss,51,175,2
+Office Large,Erin,2,Receptionist,33,165,2
+Office Large,Jim,1,Seller,33,191,1
+Office Large,Dwight,1,Seller,47,189,2
+Office Large,Pam,2,Seller,39,168,1
+Office Large,Andy,1,Seller,39,182,2
+Office Large,Stanley,1,Seller,55,180,3
+Office Large,Phyllis,2,Seller,64,166,2
+Office Large,Oscar,1,Accountant,54,175,1
+Office Large,Kevin,1,Accountant,40,185,3
+Office Large,Angela,2,Accountant,42,155,2
+Office Large,Meredith,2,Supplier Manager,49,163,3
+Office Large,Creed,2,None,70,183,3
+Office Medium,Toby,1,HR,46,177,1
+Office Medium,Gabe,1,Marketing,29,193,1
+Office Medium,Clark,1,Customer Service,28,175,1
+Office Medium,Pete,1,Customer Service,28,177,1
+Office Medium,Kelly,2,Sales Representative,34,163,1

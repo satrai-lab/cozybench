@@ -1,0 +1,1252 @@
+
+ Meters for 9,SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ1_OFFICEL [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-OFFICEL [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:TZ1_OFFICEL [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:SPACETYPE-OFFICEL [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:TZ1_OFFICEL [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:SPACETYPE-OFFICEL [J]
+
+ Meters for 130,SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 2:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ2_OFFICES [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-OFFICES [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:TZ2_OFFICES [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:SPACETYPE-OFFICES [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:TZ2_OFFICES [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:SPACETYPE-OFFICES [J]
+
+ Meters for 203,SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 LIGHTS:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ3_CONFERENCE [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-CONFERENCE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:TZ3_CONFERENCE [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:SPACETYPE-CONFERENCE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:TZ3_CONFERENCE [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:SPACETYPE-CONFERENCE [J]
+
+ Meters for 276,SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ4_KITCHEN [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-BREAKROOM [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:TZ4_KITCHEN [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:SPACETYPE-BREAKROOM [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:TZ4_KITCHEN [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:SPACETYPE-BREAKROOM [J]
+
+ Meters for 349,SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ6_BREAKROOM [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-BREAKROOM [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:TZ6_BREAKROOM [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:SPACETYPE-BREAKROOM [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:TZ6_BREAKROOM [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:SPACETYPE-BREAKROOM [J]
+
+ Meters for 386,SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 1:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ5_OFFICEM [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-OFFICEM [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:TZ5_OFFICEM [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:SPACETYPE-OFFICEM [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:TZ5_OFFICEM [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:SPACETYPE-OFFICEM [J]
+
+ Meters for 459,SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ7_NO [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-CORRIDOR [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:TZ7_NO [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:SPACETYPE-CORRIDOR [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:TZ7_NO [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:SPACETYPE-CORRIDOR [J]
+
+ Meters for 532,SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ7_NO (3) [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-CORRIDOR [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:TZ7_NO (3) [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:SPACETYPE-CORRIDOR [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:TZ7_NO (3) [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:SPACETYPE-CORRIDOR [J]
+
+ Meters for 569,SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ7_NO (2) [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-CORRIDOR [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:TZ7_NO (2) [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:SPACETYPE-CORRIDOR [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:TZ7_NO (2) [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:SPACETYPE-CORRIDOR [J]
+
+ Meters for 606,SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ1_OFFICEL [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-OFFICEL [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:TZ1_OFFICEL [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-OFFICEL [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:TZ1_OFFICEL [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-OFFICEL [J]
+
+ Meters for 679,SPACE OFFICEL ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ1_OFFICEL [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-OFFICEL [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:TZ1_OFFICEL [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-OFFICEL [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:TZ1_OFFICEL [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-OFFICEL [J]
+
+ Meters for 680,SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ2_OFFICES [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-OFFICES [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:TZ2_OFFICES [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-OFFICES [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:TZ2_OFFICES [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-OFFICES [J]
+
+ Meters for 729,SPACE OFFICES ELECTRIC EQUIPMENT 6:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ2_OFFICES [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-OFFICES [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:TZ2_OFFICES [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-OFFICES [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:TZ2_OFFICES [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-OFFICES [J]
+
+ Meters for 730,SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ3_CONFERENCE [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-CONFERENCE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:TZ3_CONFERENCE [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-CONFERENCE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:TZ3_CONFERENCE [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-CONFERENCE [J]
+
+ Meters for 779,SPACE CONFERENCE ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ3_CONFERENCE [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-CONFERENCE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:TZ3_CONFERENCE [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-CONFERENCE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:TZ3_CONFERENCE [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-CONFERENCE [J]
+
+ Meters for 780,SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ4_KITCHEN [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-BREAKROOM [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:TZ4_KITCHEN [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-BREAKROOM [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:TZ4_KITCHEN [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-BREAKROOM [J]
+
+ Meters for 829,SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ6_BREAKROOM [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-BREAKROOM [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:TZ6_BREAKROOM [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-BREAKROOM [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:TZ6_BREAKROOM [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-BREAKROOM [J]
+
+ Meters for 854,SPACE KITCHEN ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ4_KITCHEN [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-BREAKROOM [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:TZ4_KITCHEN [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-BREAKROOM [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:TZ4_KITCHEN [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-BREAKROOM [J]
+
+ Meters for 855,SPACE BREAKROOM ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ6_BREAKROOM [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-BREAKROOM [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:TZ6_BREAKROOM [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-BREAKROOM [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:TZ6_BREAKROOM [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-BREAKROOM [J]
+
+ Meters for 856,SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ5_OFFICEM [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-OFFICEM [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:TZ5_OFFICEM [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-OFFICEM [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:TZ5_OFFICEM [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-OFFICEM [J]
+
+ Meters for 905,SPACE OFFICEM ELECTRIC EQUIPMENT 5:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ5_OFFICEM [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-OFFICEM [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:TZ5_OFFICEM [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-OFFICEM [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:TZ5_OFFICEM [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-OFFICEM [J]
+
+ Meters for 906,SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ7_NO [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-CORRIDOR [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:TZ7_NO [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-CORRIDOR [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:TZ7_NO [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-CORRIDOR [J]
+
+ Meters for 955,SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ7_NO (3) [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-CORRIDOR [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:TZ7_NO (3) [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-CORRIDOR [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:TZ7_NO (3) [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-CORRIDOR [J]
+
+ Meters for 980,SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:TZ7_NO (2) [J]
+  OnMeter=Electricity:SpaceType:SPACETYPE-CORRIDOR [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:TZ7_NO (2) [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-CORRIDOR [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:TZ7_NO (2) [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-CORRIDOR [J]
+
+ Meters for 1005,TZ1_OFFICEL:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TZ1_OFFICEL [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:TZ1_OFFICEL [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:TZ1_OFFICEL [J]
+
+ Meters for 1090,TZ1_OFFICEL:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TZ1_OFFICEL [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:TZ1_OFFICEL [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:TZ1_OFFICEL [J]
+
+ Meters for 1142,TZ2_OFFICES:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TZ2_OFFICES [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:TZ2_OFFICES [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:TZ2_OFFICES [J]
+
+ Meters for 1179,TZ2_OFFICES:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TZ2_OFFICES [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:TZ2_OFFICES [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:TZ2_OFFICES [J]
+
+ Meters for 1207,TZ3_CONFERENCE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TZ3_CONFERENCE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:TZ3_CONFERENCE [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:TZ3_CONFERENCE [J]
+
+ Meters for 1244,TZ3_CONFERENCE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TZ3_CONFERENCE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:TZ3_CONFERENCE [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:TZ3_CONFERENCE [J]
+
+ Meters for 1272,TZ4_KITCHEN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TZ4_KITCHEN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:TZ4_KITCHEN [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:TZ4_KITCHEN [J]
+
+ Meters for 1309,TZ4_KITCHEN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TZ4_KITCHEN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:TZ4_KITCHEN [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:TZ4_KITCHEN [J]
+
+ Meters for 1337,TZ5_OFFICEM:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TZ5_OFFICEM [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:TZ5_OFFICEM [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:TZ5_OFFICEM [J]
+
+ Meters for 1374,TZ5_OFFICEM:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TZ5_OFFICEM [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:TZ5_OFFICEM [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:TZ5_OFFICEM [J]
+
+ Meters for 1402,TZ6_BREAKROOM:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TZ6_BREAKROOM [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:TZ6_BREAKROOM [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:TZ6_BREAKROOM [J]
+
+ Meters for 1439,TZ6_BREAKROOM:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TZ6_BREAKROOM [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:TZ6_BREAKROOM [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:TZ6_BREAKROOM [J]
+
+ Meters for 1467,TZ7_NO:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TZ7_NO [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:TZ7_NO [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:TZ7_NO [J]
+
+ Meters for 1504,TZ7_NO:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TZ7_NO [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:TZ7_NO [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:TZ7_NO [J]
+
+ Meters for 1532,TZ7_NO (2):Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TZ7_NO (2) [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:TZ7_NO (2) [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:TZ7_NO (2) [J]
+
+ Meters for 1569,TZ7_NO (2):Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TZ7_NO (2) [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:TZ7_NO (2) [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:TZ7_NO (2) [J]
+
+ Meters for 1597,TZ7_NO (3):Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TZ7_NO (3) [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:TZ7_NO (3) [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:TZ7_NO (3) [J]
+
+ Meters for 1634,TZ7_NO (3):Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TZ7_NO (3) [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:TZ7_NO (3) [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:TZ7_NO (3) [J]
+
+ Meters for 1662,Whole Building:Facility Total Purchased Electricity Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+  OnMeter=General:Cogeneration:ElectricityPurchased [J]
+
+ Meters for 1711,Whole Building:Facility Total Surplus Electricity Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+  OnMeter=General:Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 1760,Whole Building:Facility Net Purchased Electricity Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+  OnMeter=General:Cogeneration:ElectricityNet [J]
+
+ Meters for 1809,FAN VARIABLE VOLUME 1:Fan Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 1846,FAN VARIABLE VOLUME 2:Fan Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 1847,1 SPD DX HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 1872,1 SPD DX HTG COIL:Heating Coil Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+  OnMeter=General:Heating:Electricity [J]
+
+ Meters for 1897,1 SPD DX HTG COIL:Heating Coil Defrost Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+  OnMeter=General:Heating:Electricity [J]
+
+ Meters for 1898,1 SPD DX HTG COIL:Heating Coil Crankcase Heater Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+  OnMeter=General:Heating:Electricity [J]
+
+ Meters for 1899,COIL COOLING DX TWO SPEED 1:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 1912,COIL COOLING DX TWO SPEED 1:Cooling Coil Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+  OnMeter=General:Cooling:Electricity [J]
+
+ Meters for 1937,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1962,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1963,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 2:Lights Electricity Energy
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 1:Lights Electricity Energy
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE OFFICEL ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  SPACE OFFICES ELECTRIC EQUIPMENT 6:Electric Equipment Electricity Energy
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE CONFERENCE ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE KITCHEN ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE BREAKROOM ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE OFFICEM ELECTRIC EQUIPMENT 5:Electric Equipment Electricity Energy
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  FAN VARIABLE VOLUME 1:Fan Electricity Energy
+  FAN VARIABLE VOLUME 2:Fan Electricity Energy
+  1 SPD DX HTG COIL:Heating Coil Electricity Energy
+  1 SPD DX HTG COIL:Heating Coil Defrost Electricity Energy
+  1 SPD DX HTG COIL:Heating Coil Crankcase Heater Electricity Energy
+  COIL COOLING DX TWO SPEED 1:Cooling Coil Electricity Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 2:Lights Electricity Energy
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 1:Lights Electricity Energy
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE OFFICEL ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  SPACE OFFICES ELECTRIC EQUIPMENT 6:Electric Equipment Electricity Energy
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE CONFERENCE ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE KITCHEN ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE BREAKROOM ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE OFFICEM ELECTRIC EQUIPMENT 5:Electric Equipment Electricity Energy
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+
+ For Meter=Electricity:Zone:TZ1_OFFICEL [J], ResourceType=Electricity, Group=Zone, contents are:
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE OFFICEL ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+
+ For Meter=Electricity:SpaceType:SPACETYPE-OFFICEL [J], ResourceType=Electricity, Group=SpaceType, contents are:
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE OFFICEL ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 2:Lights Electricity Energy
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 1:Lights Electricity Energy
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:TZ1_OFFICEL [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=InteriorLights:Electricity:SpaceType:SPACETYPE-OFFICEL [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 2:Lights Electricity Energy
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 1:Lights Electricity Energy
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:TZ1_OFFICEL [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:SpaceType:SPACETYPE-OFFICEL [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=Electricity:Zone:TZ2_OFFICES [J], ResourceType=Electricity, Group=Zone, contents are:
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 2:Lights Electricity Energy
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  SPACE OFFICES ELECTRIC EQUIPMENT 6:Electric Equipment Electricity Energy
+
+ For Meter=Electricity:SpaceType:SPACETYPE-OFFICES [J], ResourceType=Electricity, Group=SpaceType, contents are:
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 2:Lights Electricity Energy
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  SPACE OFFICES ELECTRIC EQUIPMENT 6:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:TZ2_OFFICES [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 2:Lights Electricity Energy
+
+ For Meter=InteriorLights:Electricity:SpaceType:SPACETYPE-OFFICES [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 2:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:TZ2_OFFICES [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 2:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:SpaceType:SPACETYPE-OFFICES [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 2:Lights Electricity Energy
+
+ For Meter=Electricity:Zone:TZ3_CONFERENCE [J], ResourceType=Electricity, Group=Zone, contents are:
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE CONFERENCE ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+
+ For Meter=Electricity:SpaceType:SPACETYPE-CONFERENCE [J], ResourceType=Electricity, Group=SpaceType, contents are:
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE CONFERENCE ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:TZ3_CONFERENCE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=InteriorLights:Electricity:SpaceType:SPACETYPE-CONFERENCE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:TZ3_CONFERENCE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:SpaceType:SPACETYPE-CONFERENCE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=Electricity:Zone:TZ4_KITCHEN [J], ResourceType=Electricity, Group=Zone, contents are:
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE KITCHEN ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+
+ For Meter=Electricity:SpaceType:SPACETYPE-BREAKROOM [J], ResourceType=Electricity, Group=SpaceType, contents are:
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE KITCHEN ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE BREAKROOM ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:TZ4_KITCHEN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=InteriorLights:Electricity:SpaceType:SPACETYPE-BREAKROOM [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:TZ4_KITCHEN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:SpaceType:SPACETYPE-BREAKROOM [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=Electricity:Zone:TZ6_BREAKROOM [J], ResourceType=Electricity, Group=Zone, contents are:
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE BREAKROOM ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:TZ6_BREAKROOM [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:TZ6_BREAKROOM [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=Electricity:Zone:TZ5_OFFICEM [J], ResourceType=Electricity, Group=Zone, contents are:
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 1:Lights Electricity Energy
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE OFFICEM ELECTRIC EQUIPMENT 5:Electric Equipment Electricity Energy
+
+ For Meter=Electricity:SpaceType:SPACETYPE-OFFICEM [J], ResourceType=Electricity, Group=SpaceType, contents are:
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 1:Lights Electricity Energy
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE OFFICEM ELECTRIC EQUIPMENT 5:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:TZ5_OFFICEM [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 1:Lights Electricity Energy
+
+ For Meter=InteriorLights:Electricity:SpaceType:SPACETYPE-OFFICEM [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 1:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:TZ5_OFFICEM [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 1:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:SpaceType:SPACETYPE-OFFICEM [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 LIGHTS 1:Lights Electricity Energy
+
+ For Meter=Electricity:Zone:TZ7_NO [J], ResourceType=Electricity, Group=Zone, contents are:
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+
+ For Meter=Electricity:SpaceType:SPACETYPE-CORRIDOR [J], ResourceType=Electricity, Group=SpaceType, contents are:
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:TZ7_NO [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=InteriorLights:Electricity:SpaceType:SPACETYPE-CORRIDOR [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:TZ7_NO [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:SpaceType:SPACETYPE-CORRIDOR [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=Electricity:Zone:TZ7_NO (3) [J], ResourceType=Electricity, Group=Zone, contents are:
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:TZ7_NO (3) [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:TZ7_NO (3) [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=Electricity:Zone:TZ7_NO (2) [J], ResourceType=Electricity, Group=Zone, contents are:
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:TZ7_NO (2) [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:TZ7_NO (2) [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 LIGHTS:Lights Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE OFFICEL ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  SPACE OFFICES ELECTRIC EQUIPMENT 6:Electric Equipment Electricity Energy
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE CONFERENCE ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE KITCHEN ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE BREAKROOM ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE OFFICEM ELECTRIC EQUIPMENT 5:Electric Equipment Electricity Energy
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:TZ1_OFFICEL [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE OFFICEL ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-OFFICEL [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE OFFICEL ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE OFFICEL ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  SPACE OFFICES ELECTRIC EQUIPMENT 6:Electric Equipment Electricity Energy
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE CONFERENCE ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE KITCHEN ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE BREAKROOM ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE OFFICEM ELECTRIC EQUIPMENT 5:Electric Equipment Electricity Energy
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:TZ1_OFFICEL [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE OFFICEL ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-OFFICEL [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  SPACE OFFICEL 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE OFFICEL ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:TZ2_OFFICES [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  SPACE OFFICES ELECTRIC EQUIPMENT 6:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-OFFICES [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  SPACE OFFICES ELECTRIC EQUIPMENT 6:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:TZ2_OFFICES [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  SPACE OFFICES ELECTRIC EQUIPMENT 6:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-OFFICES [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  SPACE OFFICES 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  SPACE OFFICES ELECTRIC EQUIPMENT 6:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:TZ3_CONFERENCE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE CONFERENCE ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-CONFERENCE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE CONFERENCE ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:TZ3_CONFERENCE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE CONFERENCE ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-CONFERENCE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  SPACE CONFERENCE 189.1-2009 - OFFICE - CONFERENCE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE CONFERENCE ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:TZ4_KITCHEN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE KITCHEN ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-BREAKROOM [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE KITCHEN ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE BREAKROOM ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:TZ4_KITCHEN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE KITCHEN ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-BREAKROOM [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  SPACE KITCHEN 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE KITCHEN ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE BREAKROOM ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:TZ6_BREAKROOM [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE BREAKROOM ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:TZ6_BREAKROOM [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SPACE BREAKROOM 189.1-2009 - OFFICE - BREAKROOM - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE BREAKROOM ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:TZ5_OFFICEM [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE OFFICEM ELECTRIC EQUIPMENT 5:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-OFFICEM [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE OFFICEM ELECTRIC EQUIPMENT 5:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:TZ5_OFFICEM [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE OFFICEM ELECTRIC EQUIPMENT 5:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-OFFICEM [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  SPACE OFFICEM 189.1-2009 - OFFICE - CLOSEDOFFICE - CZ4-8 ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  SPACE OFFICEM ELECTRIC EQUIPMENT 5:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:TZ7_NO [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:SpaceType:SPACETYPE-CORRIDOR [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:TZ7_NO [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:SpaceType:SPACETYPE-CORRIDOR [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  SPACE NO HVAC 1 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:TZ7_NO (3) [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:TZ7_NO (3) [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SPACE NO HVAC 3 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:TZ7_NO (2) [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:TZ7_NO (2) [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SPACE NO HVAC 2 189.1-2009 - OFFICE - CORRIDOR - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electricity Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  TZ1_OFFICEL:Zone Air System Sensible Heating Energy
+  TZ1_OFFICEL:Zone Air System Sensible Cooling Energy
+  TZ2_OFFICES:Zone Air System Sensible Heating Energy
+  TZ2_OFFICES:Zone Air System Sensible Cooling Energy
+  TZ3_CONFERENCE:Zone Air System Sensible Heating Energy
+  TZ3_CONFERENCE:Zone Air System Sensible Cooling Energy
+  TZ4_KITCHEN:Zone Air System Sensible Heating Energy
+  TZ4_KITCHEN:Zone Air System Sensible Cooling Energy
+  TZ5_OFFICEM:Zone Air System Sensible Heating Energy
+  TZ5_OFFICEM:Zone Air System Sensible Cooling Energy
+  TZ6_BREAKROOM:Zone Air System Sensible Heating Energy
+  TZ6_BREAKROOM:Zone Air System Sensible Cooling Energy
+  TZ7_NO:Zone Air System Sensible Heating Energy
+  TZ7_NO:Zone Air System Sensible Cooling Energy
+  TZ7_NO (2):Zone Air System Sensible Heating Energy
+  TZ7_NO (2):Zone Air System Sensible Cooling Energy
+  TZ7_NO (3):Zone Air System Sensible Heating Energy
+  TZ7_NO (3):Zone Air System Sensible Cooling Energy
+  1 SPD DX HTG COIL:Heating Coil Heating Energy
+  COIL COOLING DX TWO SPEED 1:Cooling Coil Total Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  TZ1_OFFICEL:Zone Air System Sensible Heating Energy
+  TZ1_OFFICEL:Zone Air System Sensible Cooling Energy
+  TZ2_OFFICES:Zone Air System Sensible Heating Energy
+  TZ2_OFFICES:Zone Air System Sensible Cooling Energy
+  TZ3_CONFERENCE:Zone Air System Sensible Heating Energy
+  TZ3_CONFERENCE:Zone Air System Sensible Cooling Energy
+  TZ4_KITCHEN:Zone Air System Sensible Heating Energy
+  TZ4_KITCHEN:Zone Air System Sensible Cooling Energy
+  TZ5_OFFICEM:Zone Air System Sensible Heating Energy
+  TZ5_OFFICEM:Zone Air System Sensible Cooling Energy
+  TZ6_BREAKROOM:Zone Air System Sensible Heating Energy
+  TZ6_BREAKROOM:Zone Air System Sensible Cooling Energy
+  TZ7_NO:Zone Air System Sensible Heating Energy
+  TZ7_NO:Zone Air System Sensible Cooling Energy
+  TZ7_NO (2):Zone Air System Sensible Heating Energy
+  TZ7_NO (2):Zone Air System Sensible Cooling Energy
+  TZ7_NO (3):Zone Air System Sensible Heating Energy
+  TZ7_NO (3):Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:TZ1_OFFICEL [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  TZ1_OFFICEL:Zone Air System Sensible Heating Energy
+  TZ1_OFFICEL:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  TZ1_OFFICEL:Zone Air System Sensible Heating Energy
+  TZ2_OFFICES:Zone Air System Sensible Heating Energy
+  TZ3_CONFERENCE:Zone Air System Sensible Heating Energy
+  TZ4_KITCHEN:Zone Air System Sensible Heating Energy
+  TZ5_OFFICEM:Zone Air System Sensible Heating Energy
+  TZ6_BREAKROOM:Zone Air System Sensible Heating Energy
+  TZ7_NO:Zone Air System Sensible Heating Energy
+  TZ7_NO (2):Zone Air System Sensible Heating Energy
+  TZ7_NO (3):Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:TZ1_OFFICEL [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  TZ1_OFFICEL:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  TZ1_OFFICEL:Zone Air System Sensible Heating Energy
+  TZ2_OFFICES:Zone Air System Sensible Heating Energy
+  TZ3_CONFERENCE:Zone Air System Sensible Heating Energy
+  TZ4_KITCHEN:Zone Air System Sensible Heating Energy
+  TZ5_OFFICEM:Zone Air System Sensible Heating Energy
+  TZ6_BREAKROOM:Zone Air System Sensible Heating Energy
+  TZ7_NO:Zone Air System Sensible Heating Energy
+  TZ7_NO (2):Zone Air System Sensible Heating Energy
+  TZ7_NO (3):Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:TZ1_OFFICEL [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  TZ1_OFFICEL:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  TZ1_OFFICEL:Zone Air System Sensible Cooling Energy
+  TZ2_OFFICES:Zone Air System Sensible Cooling Energy
+  TZ3_CONFERENCE:Zone Air System Sensible Cooling Energy
+  TZ4_KITCHEN:Zone Air System Sensible Cooling Energy
+  TZ5_OFFICEM:Zone Air System Sensible Cooling Energy
+  TZ6_BREAKROOM:Zone Air System Sensible Cooling Energy
+  TZ7_NO:Zone Air System Sensible Cooling Energy
+  TZ7_NO (2):Zone Air System Sensible Cooling Energy
+  TZ7_NO (3):Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:TZ1_OFFICEL [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  TZ1_OFFICEL:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  TZ1_OFFICEL:Zone Air System Sensible Cooling Energy
+  TZ2_OFFICES:Zone Air System Sensible Cooling Energy
+  TZ3_CONFERENCE:Zone Air System Sensible Cooling Energy
+  TZ4_KITCHEN:Zone Air System Sensible Cooling Energy
+  TZ5_OFFICEM:Zone Air System Sensible Cooling Energy
+  TZ6_BREAKROOM:Zone Air System Sensible Cooling Energy
+  TZ7_NO:Zone Air System Sensible Cooling Energy
+  TZ7_NO (2):Zone Air System Sensible Cooling Energy
+  TZ7_NO (3):Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:TZ1_OFFICEL [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  TZ1_OFFICEL:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:TZ2_OFFICES [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  TZ2_OFFICES:Zone Air System Sensible Heating Energy
+  TZ2_OFFICES:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:TZ2_OFFICES [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  TZ2_OFFICES:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:TZ2_OFFICES [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  TZ2_OFFICES:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:TZ2_OFFICES [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  TZ2_OFFICES:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:TZ2_OFFICES [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  TZ2_OFFICES:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:TZ3_CONFERENCE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  TZ3_CONFERENCE:Zone Air System Sensible Heating Energy
+  TZ3_CONFERENCE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:TZ3_CONFERENCE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  TZ3_CONFERENCE:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:TZ3_CONFERENCE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  TZ3_CONFERENCE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:TZ3_CONFERENCE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  TZ3_CONFERENCE:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:TZ3_CONFERENCE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  TZ3_CONFERENCE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:TZ4_KITCHEN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  TZ4_KITCHEN:Zone Air System Sensible Heating Energy
+  TZ4_KITCHEN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:TZ4_KITCHEN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  TZ4_KITCHEN:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:TZ4_KITCHEN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  TZ4_KITCHEN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:TZ4_KITCHEN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  TZ4_KITCHEN:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:TZ4_KITCHEN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  TZ4_KITCHEN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:TZ5_OFFICEM [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  TZ5_OFFICEM:Zone Air System Sensible Heating Energy
+  TZ5_OFFICEM:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:TZ5_OFFICEM [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  TZ5_OFFICEM:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:TZ5_OFFICEM [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  TZ5_OFFICEM:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:TZ5_OFFICEM [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  TZ5_OFFICEM:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:TZ5_OFFICEM [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  TZ5_OFFICEM:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:TZ6_BREAKROOM [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  TZ6_BREAKROOM:Zone Air System Sensible Heating Energy
+  TZ6_BREAKROOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:TZ6_BREAKROOM [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  TZ6_BREAKROOM:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:TZ6_BREAKROOM [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  TZ6_BREAKROOM:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:TZ6_BREAKROOM [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  TZ6_BREAKROOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:TZ6_BREAKROOM [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  TZ6_BREAKROOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:TZ7_NO [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  TZ7_NO:Zone Air System Sensible Heating Energy
+  TZ7_NO:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:TZ7_NO [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  TZ7_NO:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:TZ7_NO [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  TZ7_NO:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:TZ7_NO [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  TZ7_NO:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:TZ7_NO [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  TZ7_NO:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:TZ7_NO (2) [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  TZ7_NO (2):Zone Air System Sensible Heating Energy
+  TZ7_NO (2):Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:TZ7_NO (2) [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  TZ7_NO (2):Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:TZ7_NO (2) [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  TZ7_NO (2):Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:TZ7_NO (2) [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  TZ7_NO (2):Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:TZ7_NO (2) [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  TZ7_NO (2):Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:TZ7_NO (3) [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  TZ7_NO (3):Zone Air System Sensible Heating Energy
+  TZ7_NO (3):Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:TZ7_NO (3) [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  TZ7_NO (3):Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:TZ7_NO (3) [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  TZ7_NO (3):Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:TZ7_NO (3) [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  TZ7_NO (3):Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:TZ7_NO (3) [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  TZ7_NO (3):Zone Air System Sensible Cooling Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=Electricity:HVAC [J], ResourceType=Electricity, Group=HVAC, contents are:
+  FAN VARIABLE VOLUME 1:Fan Electricity Energy
+  FAN VARIABLE VOLUME 2:Fan Electricity Energy
+  1 SPD DX HTG COIL:Heating Coil Electricity Energy
+  1 SPD DX HTG COIL:Heating Coil Defrost Electricity Energy
+  1 SPD DX HTG COIL:Heating Coil Crankcase Heater Electricity Energy
+  COIL COOLING DX TWO SPEED 1:Cooling Coil Electricity Energy
+
+ For Meter=Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  FAN VARIABLE VOLUME 1:Fan Electricity Energy
+  FAN VARIABLE VOLUME 2:Fan Electricity Energy
+
+ For Meter=General:Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  FAN VARIABLE VOLUME 1:Fan Electricity Energy
+  FAN VARIABLE VOLUME 2:Fan Electricity Energy
+
+ For Meter=EnergyTransfer:HVAC [J], ResourceType=EnergyTransfer, Group=HVAC, contents are:
+  1 SPD DX HTG COIL:Heating Coil Heating Energy
+  COIL COOLING DX TWO SPEED 1:Cooling Coil Total Cooling Energy
+
+ For Meter=HeatingCoils:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatingCoils, contents are:
+  1 SPD DX HTG COIL:Heating Coil Heating Energy
+
+ For Meter=Heating:Electricity [J], ResourceType=Electricity, EndUse=Heating, contents are:
+  1 SPD DX HTG COIL:Heating Coil Electricity Energy
+  1 SPD DX HTG COIL:Heating Coil Defrost Electricity Energy
+  1 SPD DX HTG COIL:Heating Coil Crankcase Heater Electricity Energy
+
+ For Meter=General:Heating:Electricity [J], ResourceType=Electricity, EndUse=Heating, contents are:
+  1 SPD DX HTG COIL:Heating Coil Electricity Energy
+  1 SPD DX HTG COIL:Heating Coil Defrost Electricity Energy
+  1 SPD DX HTG COIL:Heating Coil Crankcase Heater Electricity Energy
+
+ For Meter=CoolingCoils:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=CoolingCoils, contents are:
+  COIL COOLING DX TWO SPEED 1:Cooling Coil Total Cooling Energy
+
+ For Meter=Cooling:Electricity [J], ResourceType=Electricity, EndUse=Cooling, contents are:
+  COIL COOLING DX TWO SPEED 1:Cooling Coil Electricity Energy
+
+ For Meter=General:Cooling:Electricity [J], ResourceType=Electricity, EndUse=Cooling, contents are:
+  COIL COOLING DX TWO SPEED 1:Cooling Coil Electricity Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass

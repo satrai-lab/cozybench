@@ -1,0 +1,20 @@
+[
+    0,
+    "urn:ngsi-ld:Window:community0:windown_0",
+    "urn:ngsi-ld:Room:community0roomn_0",
+    "urn:ngsi-ld:Window:community0:windown_1",
+    "urn:ngsi-ld:Room:community0roomn_1",
+    "urn:ngsi-ld:floor:community0floorn_0",
+    "urn:ngsi-ld:Window:community0:windown_2",
+    "urn:ngsi-ld:Room:community0roomn_2",
+    "urn:ngsi-ld:Window:community0:windown_3",
+    "urn:ngsi-ld:Room:community0roomn_3",
+    "urn:ngsi-ld:floor:community0floorn_1",
+    "urn:ngsi-ld:Window:community0:windown_4",
+    "urn:ngsi-ld:Room:community0roomn_4",
+    "urn:ngsi-ld:Window:community0:windown_5",
+    "urn:ngsi-ld:Room:community0roomn_5",
+    "urn:ngsi-ld:floor:community0floorn_2",
+    "urn:ngsi-ld:building:community0buildingn_0",
+    "urn:ngsi-ld:community:communityn_0"
+]

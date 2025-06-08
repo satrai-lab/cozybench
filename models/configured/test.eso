@@ -1,0 +1,41 @@
+Program Version,EnergyPlus, Version 22.2.0-c249759bad, YMD=2024.07.10 23:28
+1,5,Environment Title[],Latitude[deg],Longitude[deg],Time Zone[],Elevation[m]
+2,8,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
+3,5,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Report Variables Requested
+4,2,Cumulative Days of Simulation[],Month[]  ! When Monthly Report Variables Requested
+5,1,Cumulative Days of Simulation[] ! When Run Period Report Variables Requested
+6,1,Calendar Year of Simulation[] ! When Annual Report Variables Requested
+7,1,Environment,Site Outdoor Air Drybulb Temperature [C] !TimeStep
+8,9,Environment,Site Outdoor Air Drybulb Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+1139,1,TZ1_OFFICEL,Zone Air Temperature [C] !TimeStep
+1140,1,TZ1_OFFICEL,Zone Air Temperature [C] !Hourly
+1141,1,TZ1_OFFICEL,Zone Air Relative Humidity [%] !Hourly
+1204,1,TZ2_OFFICES,Zone Air Temperature [C] !TimeStep
+1205,1,TZ2_OFFICES,Zone Air Temperature [C] !Hourly
+1206,1,TZ2_OFFICES,Zone Air Relative Humidity [%] !Hourly
+1269,1,TZ3_CONFERENCE,Zone Air Temperature [C] !TimeStep
+1270,1,TZ3_CONFERENCE,Zone Air Temperature [C] !Hourly
+1271,1,TZ3_CONFERENCE,Zone Air Relative Humidity [%] !Hourly
+1334,1,TZ4_KITCHEN,Zone Air Temperature [C] !TimeStep
+1335,1,TZ4_KITCHEN,Zone Air Temperature [C] !Hourly
+1336,1,TZ4_KITCHEN,Zone Air Relative Humidity [%] !Hourly
+1399,1,TZ5_OFFICEM,Zone Air Temperature [C] !TimeStep
+1400,1,TZ5_OFFICEM,Zone Air Temperature [C] !Hourly
+1401,1,TZ5_OFFICEM,Zone Air Relative Humidity [%] !Hourly
+1464,1,TZ6_BREAKROOM,Zone Air Temperature [C] !TimeStep
+1465,1,TZ6_BREAKROOM,Zone Air Temperature [C] !Hourly
+1466,1,TZ6_BREAKROOM,Zone Air Relative Humidity [%] !Hourly
+1529,1,TZ7_NO,Zone Air Temperature [C] !TimeStep
+1530,1,TZ7_NO,Zone Air Temperature [C] !Hourly
+1531,1,TZ7_NO,Zone Air Relative Humidity [%] !Hourly
+1594,1,TZ7_NO (2),Zone Air Temperature [C] !TimeStep
+1595,1,TZ7_NO (2),Zone Air Temperature [C] !Hourly
+1596,1,TZ7_NO (2),Zone Air Relative Humidity [%] !Hourly
+1659,1,TZ7_NO (3),Zone Air Temperature [C] !TimeStep
+1660,1,TZ7_NO (3),Zone Air Temperature [C] !Hourly
+1661,1,TZ7_NO (3),Zone Air Relative Humidity [%] !Hourly
+1809,1,FAN VARIABLE VOLUME 1,Fan Electricity Energy [J] !TimeStep
+1846,1,FAN VARIABLE VOLUME 2,Fan Electricity Energy [J] !TimeStep
+1872,1,1 SPD DX HTG COIL,Heating Coil Electricity Energy [J] !TimeStep
+1912,1,COIL COOLING DX TWO SPEED 1,Cooling Coil Electricity Energy [J] !TimeStep
+10,1,Electricity:Facility [J] !TimeStep
