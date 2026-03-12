@@ -549,8 +549,8 @@ def main(argv):
         f.write(str(json.dumps(ngsild_door, indent=4)))
 
 def get_floor_number(floor_id):
-    # 假设楼层ID的格式为 "urn:ngsi-ld:floor:community0floorn_X"
-    # 提取楼层编号
+    # Assume the floor ID format is "urn:ngsi-ld:floor:community0floorn_X"
+    # Extract the floor number
     return int(floor_id.split('_')[-1])
 
 def find_room_by_id(rooms, room_id):
@@ -560,15 +560,15 @@ def find_room_by_id(rooms, room_id):
     return None
 
 def generate_3d_coordinates(coordinates, height):
-    # 生成3D坐标
+    # Generate 3D coordinates
     base_coords = [list(coord) + [0] for coord in coordinates]
     top_coords = [list(coord) + [height] for coord in coordinates]
     return base_coords + top_coords
 
 def generate_3d_faces(num_base_vertices):
-    # 生成3D面
+    # Generate 3D faces
     faces = []
-    # 底面和顶面
+    # Bottom and top faces
     faces.extend([[i, (i + 1) % num_base_vertices, (i + 1) % num_base_vertices + num_base_vertices, i + num_base_vertices] for i in range(num_base_vertices)])
     return faces
 
@@ -577,12 +577,12 @@ def process_json_data(rooms, doors, windows):
     processed_doors = []
     processed_windows = []
 
-    # 处理rooms
+    # Process rooms
     for room in rooms:
         try:
             floor_id = room["onfloor"]["value"]
             floor_number = get_floor_number(floor_id)
-            height = floor_number * 3  # 每层楼3米
+            height = floor_number * 3  # 3 meters per floor
 
             geometry_type = room["relativePosition"]["value"]["type"]
             coordinates = room["relativePosition"]["value"]["coordinates"]
@@ -594,7 +594,7 @@ def process_json_data(rooms, doors, windows):
                 if not polygon.is_valid:
                     raise ValueError("Invalid polygon in room with id: {}".format(room["id"]))
 
-                # 生成3D坐标和面
+                # Generate 3D coordinates and faces
                 vertices = generate_3d_coordinates(polygon_coords, height)
                 faces = generate_3d_faces(len(polygon_coords))
 
@@ -606,7 +606,7 @@ def process_json_data(rooms, doors, windows):
         except Exception as e:
             print(f"Error processing room with id {room['id']}: {e}")
 
-    # 处理doors和windows
+    # Process doors and windows
     for door in doors:
         try:
             door_id = door['id']
@@ -614,7 +614,7 @@ def process_json_data(rooms, doors, windows):
                 if door_id in room.get("doorsInRoom", {}).get("value", []):
                     floor_id = room["onfloor"]["value"]
                     floor_number = get_floor_number(floor_id)
-                    height = floor_number * 3  # 每层楼3米
+                    height = floor_number * 3  # 3 meters per floor
 
                     coordinates = door["relativePosition"]["value"]["coordinates"]
                     geometry_type = door["relativePosition"]["value"]["type"]
@@ -639,7 +639,7 @@ def process_json_data(rooms, doors, windows):
                 if window_id in room.get("windowsInRoom", {}).get("value", []):
                     floor_id = room["onfloor"]["value"]
                     floor_number = get_floor_number(floor_id)
-                    height = floor_number * 3  # 每层楼3米
+                    height = floor_number * 3  # 3 meters per floor
 
                     coordinates = window["relativePosition"]["value"]["coordinates"]
                     geometry_type = window["relativePosition"]["value"]["type"]

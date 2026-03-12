@@ -30,6 +30,7 @@ class Participant:
         self.path_trajectory = path_trajectory
         self.space_num = space_num
         self.history_data = history_data
+        self._trajectory_cache = {}
         if str(occ_config).isdigit():
             self.has_profile = False
             self.config_occ_profile(occ_config)
@@ -37,10 +38,16 @@ class Participant:
             self.has_profile = True
             self.config_occ_profile(occ_config)
 
+        self.all_params = ['ta', 'activity_20', 'age', 'gender', 'weight_level', 'preference']
+        self.pattern_system = 0
+        self.pattern_mode = 0
+        self.knn_params = self.all_params[0:5]
+        self.knn_model = None
+        self.knn_model_all_params = None
+
         if pattern is not None:
-            self.all_params = ['ta', 'activity_20', 'age', 'gender', 'weight_level', "preference"]
             self.pattern_system = int(pattern[1])
-            self.pattern_mode = int(pattern.split("_")[1])
+            self.pattern_mode = int(pattern.split('_')[1])
             if self.pattern_system == 2 and self.pattern_mode != 100:
                 if self.pattern_mode == 75:
                     self.knn_params = self.all_params[0:4]
@@ -48,25 +55,21 @@ class Participant:
                     self.knn_params = self.all_params[0:3]
                 elif self.pattern_mode == 25:
                     self.knn_params = self.all_params[0:2]
-            else:
-                self.knn_params = self.all_params[0:5]
+
+        if self.collection_strategy == 'historical_based':
             self.knn_model = knn_train(self.knn_params)
             self.knn_model_all_params = knn_train(self.all_params[0:5])
 
-        else:
-            self.pattern_system = 0
-            self.pattern_mode = 0
-
     def config_occ_profile(self, config_file):
         if self.has_profile:
-            f_config = open(config_file, "r")
+            f_config = open(config_file, 'r')
             line = f_config.readline()
-            params = line.strip().split(",")
+            params = line.strip().split(',')
             line = f_config.readline()
 
             occ_id = 1
             while line:
-                data = line.strip().split(",")
+                data = line.strip().split(',')
                 person = {}
                 for i in range(len(params)):
                     person[params[i]] = data[i]
@@ -90,7 +93,7 @@ class Participant:
                 random_number = random.uniform(0, 100)
                 if random_number < cold_preferred:
                     self.occ_profile[occ_id] = 0
-                elif random_number < cold_preferred+neutral_preferred:
+                elif random_number < cold_preferred + neutral_preferred:
                     self.occ_profile[occ_id] = 1
                 else:
                     self.occ_profile[occ_id] = 2
@@ -109,6 +112,23 @@ class Participant:
             self.loss[person_id] = 0
             self.location[person_id] = -1
 
+    def _get_trajectory_entries(self, month: int):
+        monthly_file = os.path.join(self.path_trajectory, str(month) + '.txt')
+        fallback_file = os.path.join(self.path_trajectory, '1.txt')
+        trajectory_file = monthly_file if os.path.exists(monthly_file) else fallback_file
+
+        if trajectory_file not in self._trajectory_cache:
+            entries = {}
+            with open(trajectory_file, 'r') as trajectory_handle:
+                for line in trajectory_handle:
+                    data = line.strip().split(';')
+                    if len(data) < 3:
+                        continue
+                    entries.setdefault(data[1][4:], []).append((data[0], data[-1].split(',')[:-1]))
+            self._trajectory_cache[trajectory_file] = entries
+
+        return self._trajectory_cache[trajectory_file]
+
     def _locate(self, time: datetime):
         """
         Update people's current location
@@ -118,20 +138,15 @@ class Participant:
         # clean the old location to be -1
         for p_id in range(self.num):
             self.location[p_id + 1] = -1
-        f_p = open(os.path.join(self.path_trajectory, str(1) + ".txt"))
-        # f_p = open(self.path_trajectory + str(time.month) + ".txt")
-        line = f_p.readline()
-        while line:
-            data = line.strip().split(";")
-            if data[1][4:] == str(time)[4:]:
-                people = data[-1].split(",")[:-1]
-                for p_id in people:
-                    if int(data[0]) >120:
-                        self.location[int(p_id)] = random.randint(1, 120)
-                    else:
-                        self.location[int(p_id)] = int(data[0])
-                    # self.location[int(p_id)] = 1
-            line = f_p.readline()
+
+        trajectory_entries = self._get_trajectory_entries(time.month)
+        for room_id, people in trajectory_entries.get(str(time)[4:], []):
+            for p_id in people:
+                if int(room_id) > 120:
+                    self.location[int(p_id)] = random.randint(1, 120)
+                else:
+                    self.location[int(p_id)] = int(room_id)
+                # self.location[int(p_id)] = 1
 
     def vote(self, time: datetime, temp: dict):
         """
@@ -165,7 +180,7 @@ class Participant:
         #
         #         real_votes[self.location[index]][index] = predicted_comfort[0].round()
 
-        if self.collection_strategy == "historical_based":
+        if self.collection_strategy == 'historical_based':
             votes = {}
             for s in range(1, self.space_num + 1):
                 votes[s] = {}
@@ -179,9 +194,9 @@ class Participant:
 
                     knn_data = {}
                     for p in self.knn_params:
-                        if p == "activity_20":
+                        if p == 'activity_20':
                             knn_data[p] = [random.randint(1, 2)]
-                        elif p == "ta":
+                        elif p == 'ta':
                             knn_data[p] = [temp[self.location[index]]]
                         else:
                             knn_data[p] = [self.occ_profile[index][p]]
@@ -197,7 +212,7 @@ class Participant:
                     if votes[self.location[index]][index] > 3:
                         votes[self.location[index]][index] = 3
 
-        elif self.collection_strategy == "prior_knowledge":
+        elif self.collection_strategy == 'prior_knowledge':
             vote_sheet = {
                 0: {
                     16: -3, 17: -3, 18: -3, 19: -3, 20: -2, 21: -2, 22: -1, 23: -1, 24: 0, 25: 0, 26: 0, 27: 1, 28: 1, 29: 2, 30: 2
@@ -222,10 +237,12 @@ class Participant:
                     elif temperature > 30:
                         comfort = 3
                     else:
-                        comfort = vote_sheet[self.occ_profile[index]][temperature]
+                        profile = self.occ_profile[index]
+                        preference = int(profile['preference']) if isinstance(profile, dict) else int(profile)
+                        comfort = vote_sheet[preference][temperature]
                     votes[self.location[index]][index] = comfort
         else:
-            raise Exception("no thermal comfort collection??")
+            raise Exception('no thermal comfort collection??')
         return votes, votes
 
     def update_loss(self, votes: dict, atc: dict):
